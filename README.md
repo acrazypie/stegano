@@ -9,11 +9,24 @@ Read this in other languages:
 
 ---
 
-### Overview
+#### Table of Contents
+
+-   [Overview](#overview)
+-   [Features](#features)
+-   [Requirements](#requirements)
+-   [Usage](#usage)
+-   [How it Works](#how-it-works)
+-   [Limitations](#limitations)
+-   [TODO List](#todo-list)
+-   [License](#license)
+
+---
+
+### 📖 Overview
 
 Stegano is a command-line tool that implements LSB steganography to hide files within PNG images. The tool provides both encoding (hiding) and decoding (extracting) functionality with data integrity verification using SHA-1 checksums.
 
-### Features
+### ✨ Features
 
 -   **Encode**: Hide any file inside a PNG image
 -   **Decode**: Extract hidden files from PNG images
@@ -21,7 +34,7 @@ Stegano is a command-line tool that implements LSB steganography to hide files w
 -   **Error Handling**: Comprehensive error messages and validation
 -   **CLI Interface**: Easy-to-use command-line interface
 
-### Requirements
+### 📋 Requirements
 
 -   Python 3.x
 -   Pillow (PIL) library
@@ -32,7 +45,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-### Usage
+### 🚀 Usage
 
 #### Encode a file into an image
 
@@ -70,7 +83,7 @@ With decryption:
 python main.py decode output.png ./extracted/ -p mypassword
 ```
 
-### How it Works
+### 🔍 How it Works
 
 1. **Header Creation**: The tool creates a header containing:
 
@@ -83,21 +96,20 @@ python main.py decode output.png ./extracted/ -p mypassword
 
 3. **Extraction**: When decoding, the tool reads the LSBs, reconstructs the header and data, and verifies integrity using the SHA-1 checksum.
 
-### Limitations
+### ⚠️ Limitations
 
 -   Only PNG images are supported for output
 -   The cover image must be large enough to hold the hidden data
 -   Password-protected encryption uses AES-256-CBC with PBKDF2 key derivation
 
-### TODO List
+### 📝 TODO List
 
 -   **Scrambling pseudo-random with seed**: Implement pseudo-random pixel scrambling using configurable seed for enhanced security
 -   **Automatic minimum image size calculation**: Calculate and validate minimum required image dimensions based on file size
 -   **Resistance tests for resize/crop**: Develop robust tests to verify data survival after image transformations
 -   **Multi-file support**: Add support for embedding multiple files in a single image
+-   **GUI application**: Create a graphical user interface for easier use
 
----
+### 📄 License
 
-## License
-
-This project is released under the MIT License.
+This project is released under the MIT License. See the [LICENSE](LICENSE) file for details.
