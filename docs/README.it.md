@@ -29,6 +29,20 @@ Uno strumento Python per nascondere file in immagini utilizzando la steganografi
 
 Stegano è uno strumento a riga di comando che implementa la steganografia LSB per nascondere file all'interno di immagini PNG. Lo strumento fornisce sia funzionalità di codifica (nascondimento) che di decodifica (estrazione) con verifica dell'integrità dei dati tramite checksum SHA-1. Ora con supporto per scrambling pseudo-casuale di pixel per una sicurezza significativamente migliorata contro gli attacchi di stegananalisi.
 
+### ⚠️ Avviso Legale
+
+**QUESTO STRUMENTO È FORNITO SOLO PER SCOPI EDUCATIVI E LEGITTIMI.** Gli utenti sono interamente responsabili di garantire che il loro uso di questo software sia conforme a tutte le leggi e i regolamenti locali, nazionali e internazionali applicabili nella loro giurisdizione.
+
+**Non utilizzare questo strumento o codice per:**
+- Sorveglianza illegale o spionaggio
+- Accesso non autorizzato a sistemi o dati
+- Creazione di malware o assistenza in attacchi informatici
+- Riciclaggio di denaro, frode o altri crimini finanziari
+- Violazione del diritto d'autore o furto di proprietà intellettuale
+- Qualsiasi altra attività illegale
+
+Gli autori e i contributori di questo progetto declinano qualsiasi responsabilità per l'uso illegale o non etico di questo software. Gli utenti assumono la piena responsabilità legale per qualsiasi violazione della legge derivante dal loro uso di questo strumento. Se non siete sicuri che l'uso previsto sia legale, consultate un avvocato qualificato nella vostra giurisdizione prima di procedere.
+
 ### Caratteristiche
 
 -   **Codifica**: Nascondi qualsiasi file all'interno di un'immagine PNG

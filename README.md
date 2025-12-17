@@ -29,6 +29,20 @@ A Python tool for hiding files in images using Least Significant Bit (LSB) stega
 
 Stegano is a command-line tool that implements LSB steganography to hide files within PNG images. The tool provides both encoding (hiding) and decoding (extracting) functionality with data integrity verification using SHA-1 checksums. Now featuring pseudo-random pixel scrambling for significantly enhanced security against steganalysis.
 
+### ⚠️ Legal Disclaimer
+
+**THIS TOOL IS PROVIDED FOR EDUCATIONAL AND LAWFUL PURPOSES ONLY.** Users are solely responsible for ensuring that their use of this software complies with all applicable local, state, national, and international laws and regulations. 
+
+**Do not use this tool or code for:**
+- Illegal surveillance or espionage
+- Unauthorized access to systems or data
+- Creating malware or assisting in cyber attacks
+- Money laundering, fraud, or other financial crimes
+- Copyright infringement or intellectual property theft
+- Any other illegal activity
+
+The authors and contributors of this project disclaim all responsibility for any illegal or unethical use of this software. Users assume full legal liability for any violations of law resulting from their use of this tool. If you are unsure whether your intended use is legal, consult with a qualified attorney in your jurisdiction before proceeding.
+
 ### Features
 
 -   **Encode**: Hide any file inside a PNG image
