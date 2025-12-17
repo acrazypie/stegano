@@ -1,5 +1,9 @@
 # Stegano - LSB Steganography Tool
 
+<p align="center"><img width="45%" alt="stegano-chameleon" src="https://github.com/acrazypie/acrazypie/blob/main/assets/stegano.png" /></p>
+
+<br />
+
 A Python tool for hiding files in images using Least Significant Bit (LSB) steganography with optional pixel scrambling for enhanced security.
 
 ##### Read this in other languages:
